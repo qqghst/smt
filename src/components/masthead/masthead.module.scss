@@ -1,0 +1,42 @@
+.masthead {
+    position: relative;
+
+    .mastheadText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 142.66px;
+        letter-spacing: -2px;
+        overflow: hidden;
+        margin: 0 auto;
+        // position: absolute;
+        // left: 50%;
+        // top: 50%;
+        // transform: translate(-50%, -50%);
+        // -webkit-transform: translate(-50%,-50%);
+        // z-index: 2;
+
+        .sorry {
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 1;
+        }
+
+        .momTattoo {
+            position: absolute;
+            left: 135px;
+            top: 139px;
+            z-index: 1;
+        }
+    }
+
+    .mastheadImage {
+        // position: absolute;
+        // right: 0;
+        // top: 0;
+    }
+}
+
