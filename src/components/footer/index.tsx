@@ -1,14 +1,14 @@
 import React from 'react';
 
-import styles from './style.module.scss'
+import style from './style.module.scss'
 
 import AfterFooter from './afterFooter';
 const Footer: React.FC = () => {
     return (
         <section className='bg-black'>
             <div className='container mx-auto py-[100px]'>
-                <div className={styles.line}/>
-                <h1 className={styles.footerh1}>
+                <div className={style.line}/>
+                <h1 className={style.footerh1}>
                     <div className=''>
                         <div>ЗАПИСАТЬСЯ</div>
                     </div>
@@ -16,10 +16,10 @@ const Footer: React.FC = () => {
                         <div>НА СЕАНС</div>
                     </div>
                 </h1>
-                <div className={styles.par}>
+                <div className={style.par}>
                     <p>зачем ждать, <br /> если можно сейчас?</p>
                 </div>
-                <div className={styles.line}/>
+                <div className={style.line}/>
                 <AfterFooter />
             </div>
         </section>

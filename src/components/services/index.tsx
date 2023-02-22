@@ -1,9 +1,10 @@
 import React from 'react';
 
-import style from './services.module.scss';
+import style from './style.module.scss';
+
 import ServicesItem from './servicesItem';
 
-import Subtitle from '@/ui/subtitle/subtitle';
+import Subtitle from '@/ui/title';
 
 const services: React.FC = () => {
     return (

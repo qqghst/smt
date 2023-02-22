@@ -1,7 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import style from './subtitle.module.scss';
+
+import style from './index.module.scss';
 
 interface IButtonProps {
     // type: 'button' | 'submit' | 'reset',

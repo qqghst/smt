@@ -1,4 +1,5 @@
-import '@/styles/globals.css';
+import '@/styles/globals.scss';
+import '@/styles/reset.scss';
 import type { AppProps } from 'next/app';
 import { Cormorant_Garamond, Inter } from '@next/font/google';
 

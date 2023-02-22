@@ -2,17 +2,16 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import style from './about.module.scss';
+import style from './style.module.scss';
 
-
-import Subtitle from '@/ui/subtitle/subtitle';
-import Button from '@/ui/button/button';
+import Title from '@/ui/title';
+import Button from '@/ui/button';
 
 const About: React.FC = () => {
     return (
         <section className='bg-black'>
             <div className='container mx-auto py-[120px]'>
-                <Subtitle subtitle={'о нас'} />
+                <Title subtitle={'о нас'} />
                 <div className={style.text}>
                     We’ve worked extensively in terms of geography and sector,
                     developinga variety of work — products, services, and
@@ -21,7 +20,7 @@ const About: React.FC = () => {
                     to any organization. Starting in 2021, we decided to planta
                     tree for each client that we work with.
                 </div>
-                <Button text={'узнать больше'} />
+                <Button text={'узнать больше'} className={`underline text-white`} />
             </div>
         </section>
     );
